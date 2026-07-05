@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Zoeh Studio — UX Research & Service Design. Identificamos onde a experiência do seu negócio digital realmente quebra, com pesquisa real e visão de operações.">
+  <meta name="theme-color" content="#35393D">
+  <title>Zoeh Studio — UX Research & Service Design</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 120 120'%3E%3Crect width='120' height='120' rx='24' fill='%2335393D'/%3E%3Ctext x='60' y='68' text-anchor='middle' dominant-baseline='middle' font-family='sans-serif' font-size='52' font-weight='700' fill='%23F0B78E'%3EZS%3C/text%3E%3C/svg%3E">
+  <link rel="preload" href="images/urbanist-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="images/hero.jpg" as="image">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ============ HERO ============ -->
+  <header class="hero" id="topo">
+    <img class="hero__bg anim-hero-img" src="images/hero.jpg" alt="Time criando mockups de UX" fetchpriority="high">
+    <div class="hero__overlay"></div>
+
+    <!-- Tracejado da jornada -->
+    <svg class="journey-svg" viewBox="0 0 1440 680" preserveAspectRatio="none" aria-hidden="true">
+      <defs>
+        <mask id="jr-reveal">
+          <path class="jr-reveal-1" d="M 20,600 C 160,530 300,530 440,600 C 580,670 720,670 860,600 C 1000,530 1140,530 1280,600 C 1350,635 1390,645 1420,635" stroke="#fff" stroke-width="18" fill="none" pathLength="1" vector-effect="non-scaling-stroke"></path>
+        </mask>
+      </defs>
+      <g mask="url(#jr-reveal)">
+        <path class="jr-path" vector-effect="non-scaling-stroke" d="M 20,600 C 160,530 300,530 440,600 C 580,670 720,670 860,600 C 1000,530 1140,530 1280,600 C 1350,635 1390,645 1420,635"></path>
+      </g>
+    </svg>
+
+    <!-- NAV -->
+    <nav class="nav anim-nav" aria-label="Navegação principal">
+      <a class="nav__brand" href="#topo" aria-label="Zoeh Studio — início">
+        <img src="images/logo.png" alt="Zoeh Studio" width="120" height="34">
+      </a>
+
+      <button class="nav__toggle" id="navToggle" aria-label="Abrir menu" aria-expanded="false" aria-controls="navMenu">
+        <span></span><span></span><span></span>
+      </button>
+
+      <div class="nav__menu" id="navMenu">
+        <ul class="nav__links">
+          <li><a href="#servicos">Serviços</a></li>
+          <li><a href="#trabalhos">Trabalhos</a></li>
+          <li><a href="#como-funciona">Como funciona</a></li>
+        </ul>
+        <a class="btn btn--outline wa-nav" href="https://wa.me/5541991878858?text=Ol%C3%A1+Kethleen!+Vim+pelo+site+da+Zoeh+Studio+e+quero+conversar.">fale comigo pelo whatsapp</a>
+      </div>
+    </nav>
+
+    <!-- HEADLINE -->
+    <div class="hero__content">
+      <h1 class="hero__title anim-headline">Seu negócio digital perde clientes onde você não está olhando.</h1>
+      <p class="hero__sub">A Zoeh Studio vai além da interface — identificamos onde a experiência realmente quebra, com pesquisa real e visão de quem entende de operações.</p>
+      <a class="btn btn--terra wa-hero" href="https://wa.me/5541991878858?text=Ol%C3%A1+Kethleen!+Vim+pelo+site+da+Zoeh+Studio+e+quero+conversar.">Quero entender onde estou perdendo clientes →</a>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ============ NÚMEROS ============ -->
+    <section class="stats" aria-label="Números">
+      <div class="stats__grid" data-counters data-stagger>
+        <!-- items injected by JS -->
+      </div>
+    </section>
+
+    <!-- ============ AUTORIDADE ============ -->
+    <section class="authority" aria-label="Experiência">
+      <p class="authority__eyebrow">Experiência desenvolvida dentro de:</p>
+      <div class="marquee-mask">
+        <div class="logo-marquee">
+          <div class="logo-marquee__track">
+            <img src="images/logo-exxonmobil.avif" alt="ExxonMobil" loading="lazy">
+            <img src="images/logo-braskem.avif" alt="Braskem" loading="lazy">
+            <img src="images/logo-disney.png" alt="Walt Disney World" loading="lazy">
+            <img src="images/logo-mondelez.webp" alt="Mondelez International" loading="lazy">
+            <img src="images/logo-hotmilk.jpg" alt="HotMilk Ecossistema de Inovação PUCPR · PUCPR Grupo Marista" loading="lazy">
+          </div>
+          <div class="logo-marquee__track" aria-hidden="true">
+            <img src="images/logo-exxonmobil.avif" alt="" loading="lazy">
+            <img src="images/logo-braskem.avif" alt="" loading="lazy">
+            <img src="images/logo-disney.png" alt="" loading="lazy">
+            <img src="images/logo-mondelez.webp" alt="" loading="lazy">
+            <img src="images/logo-hotmilk.jpg" alt="" loading="lazy">
+          </div>
+        </div>
+      </div>
+      <p class="authority__note">Experiência em UX enterprise, operações de serviço, hospitalidade, inovação e transformação digital.</p>
+    </section>
+
+    <!-- ============ PROBLEMA ============ -->
+    <section class="problem">
+      <div class="problem__aside">
+        <h2 class="reveal" data-anim>Você se reconhece em alguma dessas situações?</h2>
+        <span class="rule"></span>
+        <p class="problem__lead">O problema raramente está onde você acha que está.<br>É exatamente por isso que existe pesquisa.</p>
+      </div>
+      <ul class="problem__list" data-stagger>
+        <!-- items injected by JS -->
+      </ul>
+    </section>
+
+    <!-- ============ DIFERENCIAL ============ -->
+    <section class="edge">
+      <div class="edge__text">
+        <h2 class="reveal" data-anim>A maioria dos especialistas em UX olha para a tela. Eu começo pelas operações.</h2>
+        <p>Com 15+ anos em ambientes de serviço de alta exigência — das operações do Disney World aos programas globais de supply chain e trading da ExxonMobil — aprendi a identificar onde as experiências falham antes de chegarem à interface: nos processos, nos handoffs, nas expectativas não ditas dos usuários.</p>
+        <p>Essa visão é o que transforma uma auditoria comum em um diagnóstico que encontra a causa raiz — e uma recomendação que o time realmente consegue implementar.</p>
+      </div>
+      <div class="edge__img" role="img" aria-label="Kethleen — Zoeh Studio"></div>
+    </section>
+
+    <!-- ============ SERVIÇOS ============ -->
+    <section class="services" id="servicos">
+      <h2 class="reveal" data-anim>O que a Zoeh Studio entrega</h2>
+      <div class="services__grid" data-stagger>
+        <!-- cards injected by JS -->
+      </div>
+    </section>
+
+    <!-- ============ PARA QUEM ============ -->
+    <section class="forwho">
+      <div class="forwho__inner">
+        <div class="reveal" data-anim>
+          <h2>A Zoeh Studio é certa para você se</h2>
+          <span class="rule"></span>
+        </div>
+        <ul class="forwho__list" data-stagger>
+          <!-- items injected by JS -->
+        </ul>
+        <div class="forwho__exclude reveal" data-anim>
+          <span class="forwho__x">×</span>
+          <p>A Zoeh Studio não atende projetos de branding, identidade visual ou desenvolvimento de software.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ COMO FUNCIONA ============ -->
+    <section class="steps" id="como-funciona">
+      <h2 class="reveal" data-anim>Como funciona</h2>
+      <div class="steps__grid" data-stagger>
+        <!-- steps injected by JS -->
+      </div>
+    </section>
+
+    <!-- ============ TRABALHOS ============ -->
+    <section class="works" id="trabalhos">
+      <div class="works__inner">
+        <h2 class="reveal" data-anim>Trabalhos recentes</h2>
+        <div class="works__grid" data-stagger>
+          <!-- cards injected by JS -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ DEPOIMENTOS ============ -->
+    <section class="testimonials">
+      <div class="testimonials__inner">
+        <h2 class="reveal reveal--light" data-anim>Recomendações de quem trabalhou comigo</h2>
+        <div class="testimonials__grid" data-stagger>
+          <!-- cards injected by JS -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CTA FINAL ============ -->
+    <section class="cta">
+      <h2 class="reveal reveal--light" data-anim>Pronto para entender o que está travando sua experiência?</h2>
+      <p>Em 30 minutos de conversa já consigo identificar onde vale olhar primeiro.</p>
+      <a class="btn btn--dark wa-cta" href="https://wa.me/5541991878858?text=Ol%C3%A1+Kethleen!+Vim+pelo+site+da+Zoeh+Studio+e+quero+conversar.">fale comigo pelo whatsapp →</a>
+    </section>
+
+  </main>
+
+  <!-- ============ RODAPÉ ============ -->
+  <footer class="footer">
+    <div class="footer__col">
+      <span class="footer__brand">Zoeh Studio</span>
+      <span>UX Research &amp; Service Design</span>
+      <span>Curitiba, Brasil · Atendimento remoto</span>
+    </div>
+    <div class="footer__col">
+      <span class="footer__brand footer__brand--hidden" aria-hidden="true">Zoeh Studio</span>
+      <a href="mailto:hello@zoehstudio.com">hello@zoehstudio.com</a>
+      <a href="https://linkedin.com/company/zoeh-studio">linkedin.com/company/zoeh-studio</a>
+    </div>
+    <div class="footer__copy">© 2026 Zoeh Studio. Todos os direitos reservados.</div>
+  </footer>
+
+  <!-- WhatsApp flutuante -->
+  <a class="wa-float" href="https://wa.me/5541991878858?text=Ol%C3%A1+Kethleen!+Vim+pelo+site+da+Zoeh+Studio+e+quero+conversar." aria-label="Fale comigo pelo WhatsApp">
+    <img src="images/whatsapp.webp" alt="WhatsApp" width="64" height="64" loading="lazy">
+  </a>
+
+  <script src="js/script.js" defer></script>
+</body>
+</html>
