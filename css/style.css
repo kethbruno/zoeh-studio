@@ -229,6 +229,7 @@ ul { list-style: none; }
 .logo-marquee__track img:nth-child(3) { height: 40px; }
 .logo-marquee__track img:nth-child(4) { height: 38px; }
 .logo-marquee__track img:nth-child(5) { height: 34px; }
+.logo-marquee__track img:nth-child(6) { height: 36px; }
 
 /* ============================================================
    PROBLEMA
