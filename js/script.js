@@ -11,8 +11,8 @@
   ------------------------------------------------------- */
   var data = {
     stats: [
-      { value: '95+', label: 'Avaliações de usabilidade conduzidas' },
-      { value: '80+', label: 'Entrevistas com usuários e stakeholders' },
+      { value: '100+', label: 'Testes de usabilidade conduzidos' },
+      { value: '100+', label: 'Entrevistas com usuários e stakeholders' },
       { value: '30+', label: 'Avaliações heurísticas realizadas' },
       { value: '15+', label: 'Workshops facilitados' },
       { value: '15+', label: 'Anos em operações de serviço de alta exigência' }
