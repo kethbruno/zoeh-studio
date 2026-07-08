@@ -23,7 +23,7 @@
 /* ---------- Design tokens ---------- */
 :root {
   --cream:      #F7F4F0;
-  --cream-2:    #EDEAE4;
+  --cream-2:    #E8E6E1;
   --cream-3:    #e6e2da;
   --dark:       #35393D;
   --dark-2:     #26292C;
@@ -249,7 +249,7 @@ ul { list-style: none; }
 .problem__item {
   display: flex; gap: 18px; align-items: flex-start;
   padding: 24px 26px; background: #fff;
-  border-radius: 10px; border-left: 3px solid var(--terra);
+  border-radius: 10px;
   box-shadow: 0 2px 10px rgba(53,57,61,.05);
 }
 .problem__mark {
@@ -328,11 +328,17 @@ ul { list-style: none; }
 .forwho__arrow { font: 600 20px 'Urbanist'; color: var(--terra); line-height: 1.55; flex-shrink: 0; }
 .forwho__item p { font: 400 19px/1.55 'Urbanist'; color: var(--ink); }
 .forwho__exclude {
-  display: flex; gap: 16px; align-items: flex-start;
-  padding: 24px 26px; background: var(--cream-3); border-radius: 10px; margin-top: 24px;
+  display: flex; gap: 16px; align-items: center;
+  padding: 24px 26px; background: #EADAD0; border-radius: 10px; margin-top: 24px;
+  border: 1px solid #DCC0B0;
 }
-.forwho__x { font: 600 18px 'Urbanist'; color: var(--terra-dark); line-height: 1.5; flex-shrink: 0; }
-.forwho__exclude p { font: 500 16.5px/1.55 'Urbanist'; color: var(--muted); }
+.forwho__x {
+  width: 30px; height: 30px; border-radius: 50%;
+  background: #C67D53; color: #fff;
+  display: flex; align-items: center; justify-content: center;
+  font: 700 15px 'Urbanist'; flex-shrink: 0;
+}
+.forwho__exclude p { font: 600 17px/1.55 'Urbanist'; color: #8a4a2c; }
 
 /* ============================================================
    COMO FUNCIONA
@@ -373,7 +379,6 @@ ul { list-style: none; }
   height: 200px; width: 100%; object-fit: cover; object-position: center 30%;
   display: block; transition: transform .3s ease;
 }
-.case-card:hover .case-img { transform: scale(1.05); }
 .case-card__body { padding: 28px; display: flex; flex-direction: column; gap: 12px; flex: 1; }
 .case-card__title { font: 700 18px/1.3 'Urbanist'; color: var(--dark); min-height: 47px; }
 .case-card__text {
